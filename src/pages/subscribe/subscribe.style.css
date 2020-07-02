@@ -1,0 +1,53 @@
+.subscribe {
+  text-align: center;
+}
+
+.image {
+  margin-top: 0.2rem;
+  width: 11%;
+  opacity: 0.3;
+}
+
+.sub-title {
+  background: rgb(177, 176, 176);
+  width: 58.5%;
+  padding: 0.2rem;
+  margin: 0 auto;
+  letter-spacing: 3px;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  margin: 1rem auto;
+  width: 60vw;
+}
+
+.offer {
+  border: 1px solid black;
+  width: 100%;
+  margin: 0.5rem 1rem;
+}
+
+.offer-title {
+  letter-spacing: 2px;
+  padding-top: 0.2rem;
+  background: rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(189, 187, 187);
+}
+
+.info {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .offers {
+    display: grid;
+  }
+  .image {
+    width: 40%;
+  }
+}

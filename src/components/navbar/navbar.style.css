@@ -1,0 +1,45 @@
+nav {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.list {
+  width: 25vw;
+  background: whitesmoke;
+  border-top: 3px solid lightgrey;
+  border-bottom: 3px solid lightgrey;
+  font-size: 1.2rem;
+}
+
+.list li {
+  transition: all 1.5s ease;
+}
+
+.list li:hover {
+  background: rgb(230, 230, 230);
+}
+
+.title {
+  width: 50vw;
+  letter-spacing: 3px;
+  font-size: 2.6rem;
+}
+
+.img {
+  width: 17%;
+}
+
+@media only screen and (max-width: 800px) {
+  .title {
+    font-size: 2rem;
+  }
+  .list {
+    width: 60vw;
+  }
+  .img {
+    width: 60%;
+  }
+}
